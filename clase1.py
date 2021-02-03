@@ -25,3 +25,10 @@ print('concatenacion "3" + "3" =', '"3'+'3"')
 
 name = "\nmario alberto saldaña martinez "
 print(name*100)
+
+#boolean
+True
+False
+
+#complejos i j
+

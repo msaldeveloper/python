@@ -88,4 +88,8 @@ print(numero.isdigit())##te dice si el valor es un numero entero sin decimales
 
 ##isdecimal
 
+##isinstance
+isinstance(14,int)##pregunta si el 14 es un entero, se puede vambiar a cualquier tipo de dato
+
+
 

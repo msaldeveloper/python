@@ -55,3 +55,36 @@ l_dato.insert(2,30)
 print(l_dato)
 l_dato[2]=30
 
+resultado = [l_nombres[i] for i in range(len(l_nombres)) if l_dato[i]<26]
+print=(resultado)
+
+################################################################################
+l_nombres2=["Ale Paez","Gabriela Camarillo","Emmanuel Cianca","Gilberto Garcia","Liliana Juarez"]
+l_horas=[7, 6, 6, 3, 8]
+print(l_horas)
+#de las listas anteriores tomar l_nombres2 seleccionar los que duermen mas de 8 horas
+resultado2 = [l_nombres2[i] for i in range(len(l_nombres2))if l_horas[i]>8]
+print(resultado2)
+##mia
+resultadoVampiros = [l_nombres2[i]+"vampiro"  if l_horas[i]<4 else l_nombres2[i]+" si duerme " for i in range(len(l_nombres2))]
+print(resultadoVampiros)
+##ale
+l_vampiros = [l_nombres2[i] + " es un vampiro" if l_horas[i] < 4 else l_nombres2[i] for i in range(len(l_horas)) if l_horas[i] < 8]
+print(l_vampiros)
+
+##aplicar 2 operaciones con bool
+# < menor que
+# > mayor que
+#>= mayor o igual
+#<= menor o igual
+#and &
+#or |
+#not !=
+#igual ==
+
+#if (expresion devuelve true,false):
+#   codigo1
+#elif(expresion devuelve true,false):
+#   codigo2
+#else:
+#   codigo3

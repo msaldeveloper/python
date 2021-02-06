@@ -48,6 +48,8 @@ miListaUno.sort() ##ordena de mayor a menor o alfabeticamente si son strings (no
 ##[::]
 miListaUno[-1:-2:-1]##ultimo elemento de la lista
 
+mi miListaUno.count(100)#cuenta cuantas veces esta el 100
+
 ###crear mi documentacion
 #gato para comentarios python no lo lee
 """ 

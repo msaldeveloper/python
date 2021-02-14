@@ -10,6 +10,7 @@ print(y)
 miListaUno=[ 1, 2, 3]
 miListaDos=[ 1, 3]
 miListaUno.append(miListaDos) ##añade el arreglo de miListDos a un espacio nuevo del arreglo miListaUno
+#resultado miListaUno=[1,2,3,1,3]
 
 ##extend
 miListaUno=[ 1, 2, 3]

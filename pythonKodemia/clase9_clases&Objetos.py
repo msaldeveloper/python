@@ -46,13 +46,13 @@ class Acumulador(object):
 Acumulador=Acumulador()
 print(Acumulador.unidad)
 Acumulador.
-
+##########
 class Producto(object):
-    def __init__(self,precio_inicial=100):
+    def __init__(self,precio_sin_iva=100):
         self.precio_sin_iva=precio_inicial
     def modificar_precio(self,nuevo_precio_sin_iva):
         self.precio_sin_iva=nuevo_precio_sin_iva
-        self precio_con_iva=(.16+1)*self.precio_sin_iva
+        self.precio_con_iva=(.16+1)*self.precio_sin_iva
     def mostrar_precio_iva(self):
         print(self.precio_con_iva)
 

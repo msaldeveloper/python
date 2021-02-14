@@ -49,23 +49,23 @@ class AparatoElectronico(object):
 
 class Telefono(object):
     def __init__(self,encendido,marca,dimensiones,funciona=True,funcionan_teclas=True):
-        self.encendido=encendido
-        self.marca=marca
-        self.dimensiones=dimensiones
-        self.funciona=funciona
-        self.funcionan_teclas=funcionan_teclas
+        self.__encendido=encendido
+        self.__marca=marca
+        self.__dimensiones=dimensiones
+        self.__funciona=funciona
+        self.__funcionan_teclas=funcionan_teclas
     def encender(self):
-        self.encendido=True
+        self.__encendido=True
     def descomponer(self):
-        self.funciona=False
+        self.__funciona=False
     def componer(self):
-        self.funciona=True
+        self.__funciona=True
     def apagar(self):
-        self.encendido=False
+        self.__encendido=False
     def descomponer_teclas(self):
-        self.funcionan_teclas=False
+        self.__funcionan_teclas=False
     def componer_teclas(self):
-        self.funcionan_teclas=True
+        self.__funcionan_teclas=True
 
 #Crear la clase Celular
 #Atributos

@@ -45,5 +45,6 @@ print(f"tu telefono sin lada es {telefono_lada[4:-3]}")
 
 #Ejercicio 5
 #Escribir un programa que pida al usuario que introduzca una frase en la consola y muestre por pantalla la frase invertid
+#anula la luna
 palindromo=input("ingresa una frase")
-print(f"la frase que ingresaste al reves es : {palindromo[::-1]}") 
+print(f"la frase que ingresaste al reves es : {palindromo[::-1]}")
